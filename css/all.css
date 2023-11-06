@@ -1,0 +1,326 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navControl {
+    max-width: 1920px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.clockbg{
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../images/clock_PC.gif);
+}
+@media (max-width:768px) {
+    .clockbg{
+        background-image: url(../images/clock_SP.gif);
+    }
+}
+/* =======
+    定位
+======= */
+.thing02-1 {
+    width: 52.7%;
+    left: 11.5%;
+    top: 7.7%;
+    animation: neonLight 2.5s infinite ease-in-out
+}
+
+.thing02-2 {
+    width: 56.6%;
+    left: 21.7%;
+    bottom: 15%;
+    animation: moveDown 2s infinite ease-in-out
+}
+
+.thing03-1 {
+    width: 70.8%;
+    left: 14.5%;
+    top: 34%;
+    animation: scale 2s infinite ease-in-out;
+}
+
+.thing03-2 {
+    width: 83.6%;
+    left: 5.5%;
+    top: 38.5%;
+    mix-blend-mode: screen;
+    animation: lightScale 2s infinite ease-in-out;
+}
+
+.thing03-3 {
+    width: 38%;
+    left: 29%;
+    top: 50.5%;
+    animation: scale 2s 1s infinite ease-in-out;
+}
+
+.thing03-4 {
+    width: 53.4%;
+    left: 9.75%;
+    top: 49%;
+    mix-blend-mode: screen;
+    animation: lightScale 2s infinite ease-in-out;
+}
+
+.thing03-5 {
+    width: 86.1%;
+    left: 7.9%;
+    bottom: 8.5%;
+    mix-blend-mode: screen;
+    animation: neonLight 2.5s infinite ease-in-out
+}
+
+.thing03-6 {
+    width: 72%;
+    left: 13.9%;
+    bottom: 8.5%;
+    animation: neonLight 2.5s infinite ease-in-out
+}
+
+.thing04-1 {
+    width: 34.6%;
+    right: 1.5%;
+    top: 21%;
+    transform-origin: bottom center;
+    animation: scale 2s infinite ease-in-out;
+}
+
+.thing04-2 {
+    width: 14.6%;
+    right: 2.5%;
+    bottom: 1%;
+    animation: scale 1.5s infinite ease-in-out;
+    z-index: 2;
+}
+
+.thing04-3 {
+    width: 90.2%;
+    left: 5.75%;
+    bottom: 2%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.thing04-4 {
+    width: 86.4%;
+    left: 7.5%;
+    bottom: 3%;
+    -webkit-mask: url("../images/thing02-2.png") no-repeat center center;
+    mask: url("../images/thing02-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.thing05-1 {
+    width: 42%;
+    left: 29.5%;
+    top: 33%;
+}
+
+.thing05-2 {
+    width: 44.3%;
+    left: 28.5%;
+    bottom: -2.5%;
+}
+
+.thing05-3 {
+    width: 100%;
+    left: -5%;
+    top: 47.5%;
+    scale: 1.1;
+    mix-blend-mode: screen;
+    animation: lightScale 1.5s infinite ease-in-out;
+}
+
+.thing07-1 {
+    width: 100%;
+    left: 0%;
+    top: 6%;
+    scale: 1.048;
+    z-index: 1;
+}
+
+.thing07-2 {
+    width: 100%;
+    scale: 1.122;
+    left: -8%;
+    top: -1%;
+    mix-blend-mode: overlay;
+}
+
+.thing07-3 {
+    width: 31.2%;
+    left: -3%;
+    top: 1%;
+    mix-blend-mode: screen;
+}
+
+.thing08-1 {
+    width: 14.2%;
+    left: 0.5%;
+    top: 27.5%;
+    z-index: 2;
+    animation: scale 1.5s infinite ease-in-out;
+}
+
+.thing08-2 {
+    width: 31.2%;
+    left: 8.5%;
+    top: 29.5%;
+    z-index: 1;
+}
+
+.thing08-3 {
+    width: 90.9%;
+    left: 4.5%;
+    bottom: 6%;
+}
+
+.thing08-4 {
+    width: 95.9%;
+    left: 2%;
+    bottom: 7.5%;
+    mix-blend-mode: screen;
+}
+
+.thing08-5 {
+    width: 89.1%;
+    left: 6.4%;
+    bottom: 6.2%;
+}
+
+.thing09-1 {
+    width: 100%;
+    left: -2%;
+    top: 1.5%;
+    scale: 1.022;
+    animation: neonLight 2.5s infinite ease-in-out
+}
+
+.thing09-2 {
+    width: 100%;
+    left: -5%;
+    top: -0.25%;
+    scale: 1.299;
+    mix-blend-mode: screen;
+    animation: neonLight 2.5s infinite ease-in-out
+}
+
+.thing09-3 {
+    width: 100%;
+    left: 0%;
+    scale: 1.644;
+    bottom: 10.5%;
+    mix-blend-mode: screen;
+}
+
+.thing09-4 {
+    width: 99.8%;
+    left: 0.2%;
+    bottom: 3.5%;
+    animation: neonLight 3s infinite ease-in-out
+}
+
+.thing09-5 {
+    width: 22.5%;
+    left: 39.2%;
+    bottom: 46.5%;
+}
+
+.thing09-6 {
+    width: 74.5%;
+    height: 12%;
+    left: 12.75%;
+    bottom: 11%;
+}
+
+.thing09-6 iframe {
+    border-radius: 15px;
+}
+
+.thing10-1 {
+    width: 60.3%;
+    left: -7%;
+    bottom: -0.5%;
+    -webkit-mask: url("../images/thing07-1.png") no-repeat center center;
+    mask: url("../images/thing07-1.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.thing10-2-1 {
+    width: 98.1%;
+    left: 1%;
+    bottom: 2%;
+    animation: neonLight 3s infinite ease-in-out;
+}
+
+.phone {
+    width: 100%;
+    height: 11%;
+    left: 0%;
+    bottom: 18%;
+}
+
+.mail {
+    width: 100%;
+    height: 6%;
+    left: 0%;
+    bottom: 8%;
+}

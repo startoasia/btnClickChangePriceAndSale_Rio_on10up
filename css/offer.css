@@ -1,0 +1,296 @@
+/* ======
+    offer
+======= */
+
+/* offer物件基本設定 */
+.saleBg {
+    width: 30.8%;
+}
+
+.saleChange {
+    width: 25.8%;
+    transition: all 0.3s;
+}
+
+.saleLight {
+    filter: blur(5px);
+}
+
+.priceBg {
+    width: 44.6%;
+}
+
+.priceChange {
+    width: 44.6%;
+    -webkit-mask: url("../images/offer/priceBG.png") no-repeat center center;
+    mask: url("../images/offer/priceBG.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain
+}
+
+.priceChange img {
+    transition: all 0.3s;
+    transform: translateY(100%);
+}
+
+.priceOutline {
+    width: 54.7%;
+}
+
+.hand {
+    width: 14.6%;
+    z-index: 2;
+    animation: scale 1.5s infinite ease-in-out;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.neonLight {
+    width: 90.2%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.offerBtn1 {
+    transform-origin: center center;
+    transition: all 0.5s;
+    z-index: 1;
+    position: relative;
+}
+
+.offerBtn2 {
+    top: 0;
+    left: 0;
+}
+
+.offer-close {
+    opacity: 0;
+}
+
+.priceChange--show {
+    transform: translateY(0%) !important;
+}
+
+.offerBtn--close {
+    transform: translateY(-100%);
+
+    opacity: 0;
+}
+
+/* offer01 */
+.saleBg01 {
+    right: 2.5%;
+    bottom: 39%;
+}
+
+.saleChange01 {
+    right: 5.3%;
+    bottom: 40.9%;
+}
+
+.priceBg01 {
+    left: 40.5%;
+    bottom: 35.5%;
+}
+
+.priceChange01 {
+    left: 40.5%;
+    bottom:  35.5%;
+}
+
+.priceOutline01 {
+    left: 32%;
+    bottom: 34.5%;
+
+}
+
+.offerSale01-1 {
+    width: 23.3%;
+    right: 6.5%;
+    bottom: 45%;
+    animation: scale 1.5s infinite ease-in-out;
+}
+.offerPrice01-1 {
+    width: 38%;
+    right: 17.5%;
+    bottom: 36.25%;
+}
+
+.neonLight01 {
+    left: 5.2%;
+    bottom: 22.5%;
+}
+
+.hand01 {
+    right: 3%;
+    bottom: 21%;
+}
+
+.offer01 {
+    width: 86.4%;
+    right: 6.5%;
+    bottom: 23.5%;
+}
+
+/* offer02 */
+.saleBg02 {
+    right: 2.5%;
+    bottom: 37%;
+}
+
+.saleChange02 {
+    right: 5.3%;
+    bottom: 39%;
+}
+
+.priceBg02 {
+    left: 40.5%;
+    bottom: 33.5%;
+}
+
+.priceChange02 {
+    left: 40.5%;
+    bottom: 33.5%;
+}
+
+.priceOutline02 {
+    left: 32%;
+    bottom: 33%;
+
+}
+
+.offerSale02-1 {
+    width: 23.3%;
+    right: 6.5%;
+    bottom: 42.5%;
+    animation: scale 1.5s infinite ease-in-out;
+}
+.offerPrice02-1 {
+    width: 38%;
+    right: 17.5%;
+    bottom: 34.75%;
+}
+
+.neonLight02 {
+    left: 5.2%;
+    bottom: 22.8%;
+}
+
+.hand02 {
+    right: 3%;
+    bottom: 21.5%;
+}
+
+.offer02 {
+    width: 86.4%;
+    right: 6.5%;
+    bottom: 23.7%;
+}
+
+/* offer03 */
+.saleBg03 {
+    right: 2.5%;
+    bottom: 31.5%;
+}
+
+.saleChange03 {
+    right: 5.3%;
+    bottom: 33.6%;
+}
+
+.priceBg03 {
+    left: 40.5%;
+    bottom: 27.5%;
+}
+
+.priceChange03 {
+    left: 40.5%;
+    bottom: 27.5%;
+}
+
+.priceOutline03 {
+    left: 32%;
+    bottom: 27%;
+}
+
+.offerSale03-1 {
+    width: 23.3%;
+    right: 6.5%;
+    bottom: 37.5%;
+    animation: scale 1.5s infinite ease-in-out;
+}
+.offerPrice03-1 {
+    width: 38%;
+    right: 17.5%;
+    bottom: 28.75%;
+}
+
+.neonLight03 {
+    left: 5.2%;
+    bottom: 15.8%;
+}
+
+.hand03 {
+    right: 3%;
+    bottom: 14.5%;
+}
+
+.offer03 {
+    width: 86.4%;
+    right: 6.5%;
+    bottom: 16.9%;
+}
+
+/* offer04 */
+.saleBg04 {
+    right: 2.5%;
+    bottom: 31.5%;
+}
+
+.saleChange04 {
+    right: 5.3%;
+    bottom: 33.5%;
+}
+
+.priceBg04 {
+    left: 40.5%;
+    bottom: 27.5%;
+}
+
+.priceChange04 {
+    left: 40.5%;
+    bottom: 27.5%;
+}
+
+.priceOutline04 {
+    left: 32%;
+    bottom: 27%;
+}
+
+.offerSale04-1 {
+    width: 23.3%;
+    right: 6.5%;
+    bottom: 37.5%;
+    animation: scale 1.5s infinite ease-in-out;
+}
+.offerPrice04-1 {
+    width: 38%;
+    right: 17.5%;
+    bottom: 28.75%;
+}
+
+.neonLight04 {
+    left: 5.2%;
+    bottom: 15.8%;
+}
+
+.hand04 {
+    right: 3%;
+    bottom: 15%;
+}
+
+.offer04 {
+    width: 86.4%;
+    right: 6.5%;
+    bottom: 16.8%;
+}
